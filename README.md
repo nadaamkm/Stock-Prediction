@@ -37,7 +37,9 @@ A rolling forecasting procedure is required given the dependence on observations
 
 Finally, we manually keep track of all observations in a list called history that is seeded with the training data and to which new observations are appended at each iteration.
 
-Testing Mean Squared Error is 741.0594879572484
+Testing Mean Squared Error is 2.85
+![image](https://user-images.githubusercontent.com/36009738/200073121-b57bed97-9952-4cc2-b2fb-63a9d3f1dc90.png)
+
 
 Summary for the second model using standard scalar and ridge regression is as follows:
 Training set score: 0.9999075445887593
@@ -47,6 +49,8 @@ Best Alpha: 0.001
 Training set score: 0.9999509222922162
 Test set score: 0.9999501290091789
 R2: 100.0%
+![image](https://user-images.githubusercontent.com/36009738/200073025-698acdda-88c4-433e-9f9e-85144f2e2948.png)
+
 
 The results for KNN classification was disappointing; however, the Random Forest Classifier gave us an accuracy of 0.8247.
 
