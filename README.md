@@ -2,6 +2,15 @@
 
 The objective of this model is to predict the Microsoft stocks. 
 
+### Data Analysis
+
+At first we analyzed and cleaned the data. We checked for numerical outliers and removed null values.
+![image](https://user-images.githubusercontent.com/36009738/200073439-c36643f8-46d1-4bb6-8830-39b70ee9e964.png)
+
+We saw that the data was skewed to the right and removed 0.02% of the data at 'close'.
+
+### Modeling
+
 I use time series decomposition to break up a time series into trend, seasonality, and residuals.
 
 Time series decomposition is used in time series analysis for tasks such as:
@@ -42,12 +51,19 @@ Testing Mean Squared Error is 2.85
 
 
 Summary for the second model using standard scalar and ridge regression is as follows:
+
 Training set score: 0.9999075445887593
+
 Test set score: 0.9999116106944692
+
 Test MSE: 0.21098532111095497
+
 Best Alpha: 0.001
+
 Training set score: 0.9999509222922162
+
 Test set score: 0.9999501290091789
+
 R2: 100.0%
 ![image](https://user-images.githubusercontent.com/36009738/200073025-698acdda-88c4-433e-9f9e-85144f2e2948.png)
 
